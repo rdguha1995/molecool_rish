@@ -81,6 +81,14 @@ celerybeat-schedule
 *.sage.py
 
 # dotenv
+
+# emacs
+*~
+
+# temporary data files
+*.in
+*.out
+
 .env
 
 # virtualenv
