@@ -24,7 +24,7 @@ def canvas(with_attribution=True):
     return quote
 
 def zen(with_attribution=True):
-    quote = """Beautiful is better than ugly.
+    quote = """    Beautiful is better than ugly.
     Explicit is better than implicit.
     Simple is better than complex.
     Complex is better than complicated.
@@ -53,3 +53,4 @@ def zen(with_attribution=True):
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
+    print(zen())
